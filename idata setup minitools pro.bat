@@ -25,6 +25,7 @@
                 cls
                 echo Dang kiem tra thiet bi ket noi qua ADB...
                 adb devices >nul 2>&1
+                cls
             if ERRORLEVEL 1 (
                 echo Loi: ADB chua duoc cai dat hoac cau hinh dung
                 echo VUI LONG KIEM TRA LAI
@@ -39,7 +40,6 @@
             )
     ::=========================================================================================================================
             :no_device
-                cls
                 echo.
                 echo.
                 echo ========================================= Xac nhan thuc hien ==========================================
@@ -60,8 +60,8 @@
                         cls
                         echo.
                         echo.
-                        echo                LUA CHON BAN NHAP VAO KHONG HOP LE
-                        echo                        VUI LONG NHAP LAI !
+                        echo                                 LUA CHON BAN NHAP VAO KHONG HOP LE
+                        echo                                       VUI LONG NHAP LAI !
                         goto no_device
                     )
             ::==================================================================================================================
